@@ -198,6 +198,8 @@ ul a{
     margin-top: 10px;
     font-size: 0.9rem;
 color: #dddddd;
+
+text-decoration: none;
 }
 .foot-panel3{
     background-color: #222f3d;
@@ -215,12 +217,23 @@ color: #dddddd;
     color: white;
     display: flex;
     height:80px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-size: 0.7rem;
-    text-align: center;
+    /* text-align: center; */
+    
 }
 .pages{
-  padding-top: 25px;
+  padding-top: 5px;
+  
+  
+}
+.pages a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
 }
 .copyright{
-    padding-top: 5px;
+    padding-top: 25px;
 }
